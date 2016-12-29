@@ -31,7 +31,7 @@ namespace ConsoleApplication4
             Console.Write("Enter the temperature in " + inputTempType + ": ");
             inputTemperature = double.Parse(Console.ReadLine());
 
-            // Convert temperature
+            // Convert the temperature
             if (inputTempType.Equals("F"))
             {
                 //convert to C
